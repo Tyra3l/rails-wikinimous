@@ -1,0 +1,6 @@
+<h1><%= @article.title %></h1>
+<div class="container w-2 p-1">
+<p class="text-area bg-secondary"><%= @article.content %></p>
+
+<%= link_to "Edit this article", edit_article_path %>
+<%= link_to "Back to list", articles_path %>
